@@ -48,7 +48,9 @@ public class BasicNavigations {
         currentURL = driver.getCurrentUrl();
         System.out.println("Current URL: "+currentURL);
 
-        driver.close();
+        driver.close(); // this will close the current open window
+
+        driver.quit(); // this will close all Google chrome windows from your current session - NOT ALL CHROME WINDOWS ON YOUR PC outside of the session. This will close multiple tabs too
 
 
     }
