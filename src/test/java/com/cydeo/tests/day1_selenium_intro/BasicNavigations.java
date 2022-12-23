@@ -12,9 +12,11 @@ public class BasicNavigations {
 
         //2- Create instance of the Selenium WebDriver
         WebDriver driver = new ChromeDriver(); // this line will open an empty browser for us
+        driver.manage().window().maximize(); // this will make the window full screen
 
         //3- Go to https://www.tesla.com
         driver.get("https://www.tesla.com");
+
 
         //4- Delay the code execution for 1 seconds
         Thread.sleep(1000);
@@ -45,6 +47,8 @@ public class BasicNavigations {
 
         currentURL = driver.getCurrentUrl();
         System.out.println("Current URL: "+currentURL);
+
+        driver.close();
 
 
     }
