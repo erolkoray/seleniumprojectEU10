@@ -34,8 +34,6 @@ TC #4: NextBaseCRM, locators, getText(), getAttribute() practice
 3- Verify “Reset password” button text is as expected:
 Expected: Reset password
 
-
-
 PS: Inspect and decide which locator you should be using to locate web
 elements.
 PS2: Pay attention to where to get the text of this button from
