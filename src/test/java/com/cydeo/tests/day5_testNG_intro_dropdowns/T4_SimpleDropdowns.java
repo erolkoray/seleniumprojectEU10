@@ -55,6 +55,8 @@ public class T4_SimpleDropdowns {
 
         Assert.assertEquals(actualStateDropdownText, expectedStateDropdownText);
 
+        driver.close();
+
 
 
 
