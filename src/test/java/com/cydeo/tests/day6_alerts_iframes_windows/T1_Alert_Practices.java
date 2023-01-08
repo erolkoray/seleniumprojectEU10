@@ -64,6 +64,8 @@ TC #2: Confirmation alert practice
 4. Click to OK button from the alert
 5. Verify “You clicked: Ok” text is displayed.
 
+alert.dismiss
+
 TC #3: Information alert practice
 1. Open browser
 2. Go to website: http://practice.cydeo.com/javascript_alerts
@@ -71,4 +73,6 @@ TC #3: Information alert practice
 4. Send “hello” text to alert
 5. Click to OK button from the alert
 6. Verify “You entered:  hello” text is displayed.
+
+alert.sendKeys() method
  */
