@@ -63,6 +63,9 @@ public class T5_Windows_Practice {
 
         System.out.println("Title after click = "+ actualTitle);
 
+        //if we want to go back to the main page, we can use already sorted main handle (below)
+       // driver.switchTo().window(mainWindowHandle);
+
 
     }
 
