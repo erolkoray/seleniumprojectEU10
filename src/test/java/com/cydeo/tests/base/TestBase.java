@@ -7,6 +7,8 @@ import org.testng.annotations.BeforeMethod;
 
 import java.util.concurrent.TimeUnit;
 
+
+// MAKE SURE THE TEST YOU USE TESTBASE IN REQUIRES ALL METHODS ETC. THAT IS IN TESTBASE
 public class TestBase {
     public WebDriver driver;
 
